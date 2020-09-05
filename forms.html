@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>FORMS</title>
+    </head>
+    <body>
+        <form action="msg.html" method="post">
+            
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" value="max" required />
+            <br><br>
+        <label>Start Date:<input type="date" name="start-date" min="2020-05-10" max="2020-05-30" /></label>
+            <br><br>
+        <label>Email id: <input type="email" name="email" /> </label>
+            <br><br>
+        <label>Password: <input type="password" name="password"/> </label>
+            <br><br>
+        <label for="address">Address</label>
+        <textarea id="address" name="address" rows="7"></textarea>
+            <br><br>
+        <label for="number">Phone Number</label>
+        <input type="number" id="number" name="number" placeholder="987564123" type="tel" />
+        <label for="quantity">Quantity: </label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" />
+            <br><br>
+        <label for="city">City
+        <select id="city" name="city">
+            <option value="PUN">Pune</option>
+            <option value="CHN">Chennai</option>
+            <option selected value="BOM">Mumbai</option>
+            <option value="DEL">Delhi</option>
+        </select>
+        </label>
+        <br><br>
+        <label for="intrest">What are your intrests?</label>
+        <fieldset>
+            <label> <input type="checkbox" id="intrest" name="intrest" value="sports" /> SPORTS</label>
+            <label> <input type="checkbox" id="intrest" name="intrest"  value="art"/> ART</label>
+            <label> <input type="checkbox" id="intrest" name="intrest" value="cooking"/> COOKING</label>
+            <label> <input type="checkbox" id="intrest" name="intrest" value="reading" /> READING</label>
+        </fieldset>
+        <br><br>
+        <label for="gender">Enter your gender</label>
+        <fieldset>
+            <label> <input type="radio" id="gender" name="gender" value="male" /> MALE</label>
+            <label> <input type="radio" id="gender" name="gender"  value="female"/> FEMALE</label>
+        </fieldset>
+        <br><br>
+        <lable for="search">Search</lable>
+        <input type="search" name="search" id="search" placeholder="@123456" type="search" />
+        <br><br>
+        <lable for="color">Color</lable>
+        <input id="color" name="color" type="color" />
+        <br><br>
+        <lable for="file">Upload File</lable>
+        <input id="file" name="file" type="file" accept="image/*" multiple />
+        <button value="SUBMIT" ></button>
+        <input type="submit" value="CHECKOUT" />
+        <input type="reset" value="RESET ALL INPUTS" />
+    </form>
+    </body>
+</html>

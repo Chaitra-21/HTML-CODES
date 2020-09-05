@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>IMAGES</title>
+    </head>
+    <body>
+        <img src="jerry.png" alt="jerry" width="400" height="400" />
+        alternative text is used in caes of failure to load the image. alt text is shown only if image is not shown.
+        <!--
+        <a href="https://en.wikipedia.org/wiki/Tom_and_Jerry"><img src="jerry.png" alt="jerry" /> clickable image
+        </a>-->
+        <picture>
+        <source media="(min-width:600px)"srcset="">
+        <source srcset="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" >
+        <img src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt="cat" width="480" height="480" />
+        </picture>
+        <hr>
+        <br><br>
+        <figure>
+                    <img src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt="cat" width="960" height="960" 
+        
+        srcset="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png 2x,
+        https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png 3x" />
+        
+            <figcaption>
+                The cat has big brown eyes
+            </figcaption>
+        </figure>
+    </body>
+</html>
